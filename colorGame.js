@@ -53,7 +53,7 @@ function reset(){
 	colors = generateRandomColors(numSquares);
 	//pick a new random color from array
 	pickedColor = pickColor();
-	//change colorDisplay to mathc pickedColor
+	//change colorDisplay to match pickedColor
 	colorDisplay.textContent = pickedColor;
 	resetButton.textContent = "New Colors";
 	messageDisplay.textContent = "";
